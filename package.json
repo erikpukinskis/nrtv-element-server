@@ -1,6 +1,6 @@
 {
   "name": "nrtv-element-server",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Put an element up on the internet for people to interact with",
   "main": "element-server.js",
   "repository": {
