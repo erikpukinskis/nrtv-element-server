@@ -8,6 +8,8 @@ module.exports = library.export(
 
     ElementServer.start = Server.start.bind(Server)
 
+    ElementServer.stop = Server.stop.bind(Server)
+
     ElementServer.serve =
       function(element) {
         Server.get("/", BrowserBridge.sendPage(element))
